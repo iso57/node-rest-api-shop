@@ -10,7 +10,6 @@ router.get('/',checkAuth, productController.productGet);
 
 router.delete('/:productId', productController.productDelete);
 router.patch('/:productId', productController.productUpdate);
-// 21:00
 router.get('/:productId', productController.productGetSingle);
 router.post('/', checkAuth, productController.productCreate);
 
